@@ -104,7 +104,7 @@ fleetlogix-data-engineering-pipeline/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Diiimas/fleetlogix-data-engineering-pipeline.git
 cd fleetlogix-data-engineering-pipeline
 ```
 
