@@ -1,0 +1,45 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+
+# Datos y resultados pesados
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+*.parquet
+
+# Registros
+*.log
+
+# Herramientas
+.vscode/
+.ipynb_checkpoints/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Claves y secretos
+secrets/
+*.pem
+*.p8
+
+# Cobertura y empaquetado
+.coverage
+htmlcov/
+build/
+dist/
+
+# Resultados generados durante la ejecución
+generation_summary.json
